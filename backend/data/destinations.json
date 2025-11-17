@@ -1,0 +1,317 @@
+[
+  {
+    "destinationId": "dest_001",
+    "name": "Maldives Resort",
+    "summary": "Luxury beach paradise with crystal clear waters and overwater bungalows",
+    "itinerary": "Day 1-2: Arrival and beach relaxation. Day 3-4: Snorkeling and spa. Day 5: Water sports and sunset cruise",
+    "costLevel": "high",
+    "imageUrl": "/images/maldives.jpg",
+    "tags": {
+      "season": ["summer", "spring"],
+      "mood": ["relax"],
+      "riskTolerance": ["low"],
+      "budgetLevel": ["high"],
+      "category": "luxury_beach"
+    }
+  },
+  {
+    "destinationId": "dest_002",
+    "name": "Nepal Trekking",
+    "summary": "Adventure through the Himalayas with breathtaking mountain views",
+    "itinerary": "Day 1-2: Kathmandu exploration. Day 3-7: Annapurna Base Camp trek. Day 8: Return and celebration",
+    "costLevel": "medium",
+    "imageUrl": "/images/nepal.jpg",
+    "tags": {
+      "season": ["summer", "fall"],
+      "mood": ["adventure"],
+      "riskTolerance": ["high"],
+      "budgetLevel": ["medium"],
+      "category": "trekking"
+    }
+  },
+  {
+    "destinationId": "dest_003",
+    "name": "Kyoto Cultural Tour",
+    "summary": "Immerse yourself in Japanese culture, temples, and traditional experiences",
+    "itinerary": "Day 1-2: Temple visits. Day 3: Tea ceremony and kimono experience. Day 4-5: Historic districts and gardens",
+    "costLevel": "low",
+    "imageUrl": "/images/kyoto.jpg",
+    "tags": {
+      "season": ["spring", "fall"],
+      "mood": ["cultural"],
+      "riskTolerance": ["medium"],
+      "budgetLevel": ["low"],
+      "category": "budget_city"
+    }
+  },
+  {
+    "destinationId": "dest_004",
+    "name": "Swiss Alps Retreat",
+    "summary": "Cozy mountain getaway with skiing and alpine charm",
+    "itinerary": "Day 1-3: Skiing and snowboarding. Day 4: Mountain village exploration. Day 5: Spa and relaxation",
+    "costLevel": "high",
+    "imageUrl": "/images/swiss.jpg",
+    "tags": {
+      "season": ["winter"],
+      "mood": ["relax"],
+      "riskTolerance": ["low"],
+      "budgetLevel": ["high"],
+      "category": "cozy"
+    }
+  },
+  {
+    "destinationId": "dest_005",
+    "name": "Iceland Adventure",
+    "summary": "Extreme adventure with glaciers, volcanoes, and northern lights",
+    "itinerary": "Day 1-2: Golden Circle tour. Day 3-4: Glacier hiking. Day 5: Ice cave exploration. Day 6: Northern lights hunt",
+    "costLevel": "medium",
+    "imageUrl": "/images/iceland.jpg",
+    "tags": {
+      "season": ["winter"],
+      "mood": ["adventure"],
+      "riskTolerance": ["high"],
+      "budgetLevel": ["medium"],
+      "category": "extreme"
+    }
+  },
+  {
+    "destinationId": "dest_006",
+    "name": "Morocco Cultural Journey",
+    "summary": "Explore vibrant markets, ancient medinas, and desert landscapes",
+    "itinerary": "Day 1-2: Marrakech souks. Day 3-4: Sahara desert camp. Day 5: Fes cultural sites",
+    "costLevel": "low",
+    "imageUrl": "/images/morocco.jpg",
+    "tags": {
+      "season": ["winter"],
+      "mood": ["cultural"],
+      "riskTolerance": ["medium"],
+      "budgetLevel": ["low"],
+      "category": "local_culture"
+    }
+  },
+  {
+    "destinationId": "dest_007",
+    "name": "Caribbean Wellness Circuit",
+    "summary": "Island-hopping wellness journey with yoga, thermal baths, and curated nutrition",
+    "itinerary": "Day 1: Aruba beach yoga. Day 2: Curacao thermal springs. Day 3: St. Lucia rainforest meditation. Day 4-5: Private catamaran reset",
+    "costLevel": "medium",
+    "imageUrl": "/images/caribbean_wellness.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["relax"],
+      "riskTolerance": ["low"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "wellness_retreat"
+    }
+  },
+  {
+    "destinationId": "dest_008",
+    "name": "Bali Surf & Spa Escape",
+    "summary": "Blend gentle reef breaks with hillside spa rituals and cultural evenings",
+    "itinerary": "Day 1: Uluwatu surf coaching. Day 2: Spa and herbal workshop. Day 3: Rice terrace cycle. Day 4-5: Seminyak sunsets and cafe hopping",
+    "costLevel": "medium",
+    "imageUrl": "/images/bali_surf_spa.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["relax"],
+      "riskTolerance": ["medium"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "balanced_coast"
+    }
+  },
+  {
+    "destinationId": "dest_009",
+    "name": "Nordic Fjord Slow Cruise",
+    "summary": "Polar-view cruising focused on mindfulness decks, onboard lectures, and quiet fjord landings",
+    "itinerary": "Day 1: Oslo embarkation. Day 2: Geirangerfjord mindfulness hike. Day 3: Trondheim culture hour. Day 4-5: Lofoten sauna ritual",
+    "costLevel": "high",
+    "imageUrl": "/images/nordic_fjord.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["relax"],
+      "riskTolerance": ["high"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "slow_cruise"
+    }
+  },
+  {
+    "destinationId": "dest_010",
+    "name": "Costa Rica Eco Quest",
+    "summary": "Rainforest zip-lines, gentle rafting, and wildlife immersion with certified naturalists",
+    "itinerary": "Day 1: Arenal canopy walk. Day 2: Class II rafting. Day 3: Sloth sanctuary. Day 4: Cloud forest night tour. Day 5: Pacific sunset paddle",
+    "costLevel": "medium",
+    "imageUrl": "/images/costa_rica_eco.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["adventure"],
+      "riskTolerance": ["low"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "eco_soft"
+    }
+  },
+  {
+    "destinationId": "dest_011",
+    "name": "Canadian Rockies Multi-Sport",
+    "summary": "Mix alpine hikes, glacier kayaking, and via ferrata routes across Banff and Jasper",
+    "itinerary": "Day 1: Banff ridge hike. Day 2: Moraine Lake kayak. Day 3: Columbia Icefield trek. Day 4: Via ferrata. Day 5: Hot springs recovery",
+    "costLevel": "medium",
+    "imageUrl": "/images/canadian_rockies.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["adventure"],
+      "riskTolerance": ["medium"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "mountain_multi"
+    }
+  },
+  {
+    "destinationId": "dest_012",
+    "name": "Kamchatka Volcano Traverse",
+    "summary": "Heli-assisted drop-offs, lava field trekking, and glacier camping on Russia's Pacific rim",
+    "itinerary": "Day 1: Petropavlovsk briefing. Day 2-3: Mutnovsky ascent. Day 4: Tolbachik lava tubes. Day 5: Coastal hot springs",
+    "costLevel": "high",
+    "imageUrl": "/images/kamchatka.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["adventure"],
+      "riskTolerance": ["high"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "expedition"
+    }
+  },
+  {
+    "destinationId": "dest_013",
+    "name": "Imperial Capitals Grand Tour",
+    "summary": "Guided art immersions across Vienna, Prague, and Budapest with slow travel pacing",
+    "itinerary": "Day 1: Vienna palaces. Day 2: Classical concert. Day 3: Prague walking salons. Day 4: Budapest thermal baths. Day 5: Danube sunset cruise",
+    "costLevel": "medium",
+    "imageUrl": "/images/imperial_capitals.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["cultural"],
+      "riskTolerance": ["low"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "euro_culture"
+    }
+  },
+  {
+    "destinationId": "dest_014",
+    "name": "Peruvian Living History Loop",
+    "summary": "Community-led Andes homestays, culinary labs, and train journeys to Machu Picchu",
+    "itinerary": "Day 1: Cusco walking seminar. Day 2: Sacred Valley weaving. Day 3: Machu Picchu sunrise. Day 4: Lake Titicaca homestay. Day 5: Lima food lab",
+    "costLevel": "medium",
+    "imageUrl": "/images/peru_history.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["cultural"],
+      "riskTolerance": ["medium"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "living_history"
+    }
+  },
+  {
+    "destinationId": "dest_015",
+    "name": "Silk Road Frontier Expedition",
+    "summary": "Overland convoy through Kyrgyzstan and Uzbekistan with remote fort explorations",
+    "itinerary": "Day 1: Bishkek bazaar. Day 2: Song-Kol yurt camp. Day 3: Pamir Highway jeep. Day 4: Samarkand ruins. Day 5: Bukhara night market",
+    "costLevel": "medium",
+    "imageUrl": "/images/silk_road.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["cultural"],
+      "riskTolerance": ["high"],
+      "budgetLevel": ["low", "medium", "high"],
+      "category": "frontier_culture"
+    }
+  },
+  {
+    "destinationId": "dest_016",
+    "name": "Mediterranean Yacht Collective",
+    "summary": "Crewed catamaran sharing gourmet deck dinners, freediving clinics, and artisan island hops",
+    "itinerary": "Day 1: Athens chef tasting. Day 2: Cyclades swim coves. Day 3: Serifos freedive coaching. Day 4: Milos wine cave. Day 5: Hydra sunset sail",
+    "costLevel": "high",
+    "imageUrl": "/images/med_yacht.jpg",
+    "tags": {
+      "season": ["summer"],
+      "mood": ["relax", "adventure"],
+      "riskTolerance": ["medium"],
+      "budgetLevel": ["high"],
+      "category": "yacht_collective"
+    }
+  },
+  {
+    "destinationId": "dest_017",
+    "name": "Andalusian Flamenco Trail",
+    "summary": "Tapas tutorials, flamenco masterclasses, and heritage hotel stays across southern Spain",
+    "itinerary": "Day 1: Seville barrio immersion. Day 2: Flamenco workshop. Day 3: Cordoba patios. Day 4: Granada Alhambra. Day 5: Sherry cellar finale",
+    "costLevel": "medium",
+    "imageUrl": "/images/andalusia.jpg",
+    "tags": {
+      "season": ["spring", "fall"],
+      "mood": ["cultural"],
+      "riskTolerance": ["low"],
+      "budgetLevel": ["medium"],
+      "category": "heritage_route"
+    }
+  },
+  {
+    "destinationId": "dest_018",
+    "name": "Sahara Ultra Trek",
+    "summary": "Fast-paced desert endurance trek with dune bivouacs and cambered fat-bike stages",
+    "itinerary": "Day 1: Merzouga acclimation. Day 2: Erg Chebbi trek. Day 3: Night bivouac. Day 4: Fat-bike dash. Day 5: Oasis recovery",
+    "costLevel": "medium",
+    "imageUrl": "/images/sahara_ultra.jpg",
+    "tags": {
+      "season": ["winter"],
+      "mood": ["adventure"],
+      "riskTolerance": ["high"],
+      "budgetLevel": ["medium", "high"],
+      "category": "desert_extreme"
+    }
+  },
+  {
+    "destinationId": "dest_019",
+    "name": "Tokyo Future Lab Stay",
+    "summary": "Stay in design-forward micro hotels with robotics tours, anime studios, and foodie alleys",
+    "itinerary": "Day 1: Akihabara tech crawl. Day 2: Robotics lab. Day 3: Tsukiji tasting. Day 4: Studio Ghibli stops. Day 5: Night skyline cruise",
+    "costLevel": "high",
+    "imageUrl": "/images/tokyo_future.jpg",
+    "tags": {
+      "season": ["spring", "fall", "winter"],
+      "mood": ["cultural"],
+      "riskTolerance": ["medium"],
+      "budgetLevel": ["high"],
+      "category": "urban_modern"
+    }
+  },
+  {
+    "destinationId": "dest_020",
+    "name": "Alaskan Aurora Ski Camp",
+    "summary": "Backcountry ski touring with avalanche-certified guides and nightly aurora domes",
+    "itinerary": "Day 1: Anchorage prep. Day 2: Heli drop glacier tour. Day 3: Avalanche skills. Day 4: Night aurora watch. Day 5: Ice climbing intro",
+    "costLevel": "high",
+    "imageUrl": "/images/alaska_aurora.jpg",
+    "tags": {
+      "season": ["winter"],
+      "mood": ["adventure", "relax"],
+      "riskTolerance": ["high"],
+      "budgetLevel": ["high"],
+      "category": "polar_adventure"
+    }
+  },
+  {
+    "destinationId": "dest_021",
+    "name": "Vietnam Mekong Slowboat",
+    "summary": "Slowboat journey with floating markets, farm-to-table lunches, and local homestays",
+    "itinerary": "Day 1: Ho Chi Minh culinary tour. Day 2: Cai Be floating market. Day 3: Homestay cooking. Day 4: Cycling delta paths. Day 5: Spa finale",
+    "costLevel": "low",
+    "imageUrl": "/images/mekong_slowboat.jpg",
+    "tags": {
+      "season": ["spring", "summer", "fall", "winter"],
+      "mood": ["cultural", "relax"],
+      "riskTolerance": ["low", "medium"],
+      "budgetLevel": ["low", "medium"],
+      "category": "river_slow"
+    }
+  }
+]
