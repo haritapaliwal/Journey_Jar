@@ -1,9 +1,6 @@
 const { getRecommendations } = require('../services/recommendationEngine');
 const logger = require('../utils/logger');
 
-// @desc    Get destination recommendations
-// @route   POST /api/recommendations
-// @access  Private
 const getDestinationRecommendations = async (req, res) => {
   try {
     const { season, mood, riskTolerance, budgetLevel, priorities } = req.body;

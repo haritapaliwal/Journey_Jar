@@ -1,7 +1,6 @@
 const Destination = require('../models/Destination');
 const logger = require('../utils/logger');
 
-// Rule-based decision table
 const RULES = [
   {
     id: 'rule_1',
@@ -86,7 +85,6 @@ const DEFAULT_PRIORITIES = {
 
 const RULE_BONUS = 5;
 
-// Calculate match score for a destination
 const buildPriorityWeights = (priorities = {}) => {
   const merged = { ...DEFAULT_PRIORITIES, ...priorities };
   const rawWeights = {};
@@ -118,27 +116,22 @@ const calculateScore = (destination, preferences, priorityWeights) => {
   const { season, mood, riskTolerance, budgetLevel } = preferences;
   const tags = destination.tags;
 
-  // Season match
   if (tags.season && tags.season.includes(season)) {
     score += (priorityWeights.season || 0) * 100;
   }
 
-  // Mood match
   if (tags.mood && tags.mood.includes(mood)) {
     score += (priorityWeights.mood || 0) * 100;
   }
 
-  // Risk tolerance match
   if (tags.riskTolerance && tags.riskTolerance.includes(riskTolerance)) {
     score += (priorityWeights.riskTolerance || 0) * 100;
   }
 
-  // Budget level match
   if (tags.budgetLevel && tags.budgetLevel.includes(budgetLevel)) {
     score += (priorityWeights.budgetLevel || 0) * 100;
   }
 
-  // Apply rule-based category bonus
   for (const rule of RULES) {
     const conditionsMet = 
       rule.conditions.season.includes(season) &&
@@ -154,14 +147,12 @@ const calculateScore = (destination, preferences, priorityWeights) => {
   return Math.min(100, Math.round(score));
 };
 
-// Main recommendation function
 const DEFAULT_TOP_N = 10;
 
 const getRecommendations = async (preferences, topN = DEFAULT_TOP_N) => {
   try {
     logger.info('Getting recommendations', { preferences });
 
-    // Fetch all destinations
     const destinations = await Destination.find();
 
     if (destinations.length === 0) {
@@ -169,7 +160,6 @@ const getRecommendations = async (preferences, topN = DEFAULT_TOP_N) => {
       return [];
     }
 
-    // Score each destination
     const priorityWeights = buildPriorityWeights(preferences.priorities);
 
     const scoredDestinations = destinations.map(dest => ({
@@ -177,10 +167,8 @@ const getRecommendations = async (preferences, topN = DEFAULT_TOP_N) => {
       score: calculateScore(dest, preferences, priorityWeights)
     }));
 
-    // Sort by score descending
     scoredDestinations.sort((a, b) => b.score - a.score);
 
-    // Return top N
     const recommendations = scoredDestinations
       .slice(0, topN)
       .map(item => ({
